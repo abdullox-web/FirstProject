@@ -1,0 +1,415 @@
+@font-face {
+  font-family: "Syne";
+  src: url(../Fonts/Syne-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url(../Fonts/Syne-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../Fonts/SpaceGrotesk-Light.ttf);
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../Fonts/SpaceGrotesk-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../Fonts/SpaceGrotesk-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* ----- Header start ------- */
+
+/* header{
+  width: 1440px;
+  position: fixed;
+  top: 0;
+  left: 10%;
+} */
+
+.header-container {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-list {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-list-item {
+  padding: 28px 0;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.header-link {
+  color: #000;
+}
+
+.header-img {
+  padding-left: 300px;
+  padding-right: 260px;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  opacity: 0.5;
+}
+
+.btn-2 {
+  display: flex;
+  align-items: center;
+}
+
+.btn-2 img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+  padding: 12px;
+  border: none;
+  background: #fff;
+}
+
+/* ------ header and ------- */
+
+/* ---- Heero start ------ */
+
+
+
+.hero-row {
+  padding: 80px 292px 64px;
+  background-image: url(../images/Background_hero.svg);
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  padding-bottom: 32px;
+  color: #000;
+  text-align: center;
+  text-shadow: -5px 5px 0px 0px #fff;
+  font-family: Syne;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+}
+
+.hero-p {
+  padding-bottom: 32px;
+  color: var(--accent, #532c59);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero-button {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero-btn {
+  padding: 16px 20px;
+  gap: 6px;
+  border-radius: 15px;
+  background-color: #532c59;
+}
+
+.hero-btn-link {
+  color: #fff;
+}
+
+/* ----- hero end ----- */
+
+/* ----- Logos section start ------ */
+/* 
+#logo-section {
+  display: flex;
+  width: 1440px;
+  height: 120px;
+  padding: 40px 70px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.logo-container {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.collection-text {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--black, #000);
+  text-align: center;
+  font-family: Syne;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.collection-p {
+  padding: 16px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  color: var(--accent, #532c59);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-1-img {
+  width: 412px;
+  height: 396px;
+}
+
+.card-1-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+#collection {
+  padding: 80px 70px 73px 70px;
+}
+
+.card-1-text {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.card-1-p {
+  color: #532C59;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.collection-container {
+  padding-bottom: 64px;
+  /* gap: 32px; */
+  flex-direction: column;
+  align-self: stretch;
+}
+
+
+
+/* ----- Team satrt ------ */
+
+.team-container {
+  /* display: flex; */
+  padding: 80px 70px 104 px 70px;
+  /* width: 1440px; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.team-text {
+  padding-bottom: 24px;
+  text-align: center;
+  font-family: Syne;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  color: #000;
+}
+
+.team-p {
+  /* width: 690px; */
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #532C59;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.team-box {
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  align-self: stretch;
+  gap: 12px;
+}
+
+.team-box-text {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: #000;
+}
+
+.team-box-p {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  color: #532C59;
+}
+
+/* ---- Team end ------ */
+
+
+/* ---- provide start ----- */
+
+.provide-container {
+  padding: 80px 70px 104px 70px;
+}
+
+.provide-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.provide-text {
+  padding-bottom: 24px;
+  text-align: center;
+  font-family: Syne;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  color: #000;
+}
+
+.provide-p {
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #532C59;
+}
+
+.provide-box {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.provide-box-text {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000;
+}
+
+.provide-box-p {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  color: #532C59;
+}
